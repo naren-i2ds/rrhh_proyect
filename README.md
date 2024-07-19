@@ -42,7 +42,7 @@ Backend project with FastAPI on salary gap between men and women
 ### 1. Clonar el Repositorio
 
 ```bash
-git clone git@github.com:naren-i2ds/rrhh_proyect.git
+git clone https://github.com/naren-i2ds/rrhh_proyect.git
 cd rrhh_proyect
 ```
 
