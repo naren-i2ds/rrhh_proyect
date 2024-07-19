@@ -5,9 +5,10 @@ import os
 # Cargar variables de entorno desde .env
 load_dotenv()
 
+
 class Settings(BaseSettings):
     # Configuración de la base de datos
-    DATABASE_URL:str = os.getenv("DATABASE_URL")
+    DATABASE_URL: str = os.getenv("DATABASE_URL")
 
     # Configuración de seguridad
     # SECRET_KEY: str = os.getenv("SECRET_KEY")
@@ -21,5 +22,5 @@ class Settings(BaseSettings):
     # Configuración de CORS (si es necesario)
     # BACKEND_CORS_ORIGINS = os.getenv("BACKEND_CORS_ORIGINS", "*").split(",")
 
-settings = Settings()
 
+settings = Settings()
