@@ -51,13 +51,14 @@ cd rrhh_proyect
 ### 2. Configurar el Entorno
 
 Crear archvio .env y ajusta las variables de entorno según sea necesario.
-
+```bash
 touch .env
+```
 
 ### 3. Instalar Dependencias
-
+```bash
 pip install -r requirements.txt
-
+```
 ### 4. Ejecutar la Aplicación
 
 Para ejecutar la aplicación sin Docker:
@@ -67,8 +68,9 @@ python run.py
 ```
 
 Para ejecutar la aplicación con Docker:
-
+```bash
 docker-compose up --build
+```
 
 ### 5. Acceder a la Aplicación
 
